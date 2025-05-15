@@ -1,3 +1,6 @@
+from readepd3 import try_final_fallback
+
+
 def try_gwp_block_cipa_gres(pdf_path, filename, cursor):
     import re
     import pdfplumber
@@ -142,3 +145,4 @@ def try_alternative_parsing(pdf_path, filename, cursor):
         try_gwp_firesilicone(pdf_path, filename, cursor)
     else:
         try_gwp_sevenval(pdf_path, filename, cursor)
+        try_final_fallback(pdf_path, filename, cursor)
