@@ -19,31 +19,26 @@ def try_gwp_blgv_board(pdf_path, filename, cursor):
             if "GWP (kg CO2 equiv/FU)" not in full_text:
                 continue
 
-            values = re.findall(
-                r"-?\d+(?:\.\d+)?(?:E[+-]?\d+)?|MND", full_text)
-
-            # Slice values after the label occurrence
             label_index = full_text.find("GWP (kg CO2 equiv/FU)")
-            after_label = full_text[label_index:]
+            after_label = full_text[label_index +
+                                    len("GWP (kg CO2 equiv/FU)"):].strip()
             values_after = re.findall(
                 r"-?\d+(?:\.\d+)?(?:E[+-]?\d+)?|MND", after_label)
 
-            modules = [
-                "A1", "A2", "A3", "A4", "A5", "B1", "B2", "B3", "B4", "B5",
-                "B6", "B7", "C1", "C2", "C3", "C4", "D"
-            ]
+            # Filter out MND before slicing
+            filtered_values = [v for v in values_after if v != "MND"]
 
-            if len(values_after) < len(modules):
+            modules = ["A1", "A2", "C1", "C2", "C3", "C4"]
+
+            if len(filtered_values) < len(modules):
                 print(
-                    f"❌ Not enough values after label — Found {len(values_after)}, expected {len(modules)}")
+                    f"❌ Not enough usable values after label — Found {len(filtered_values)}, expected {len(modules)}")
                 continue
 
-            selected_values = values_after[:len(modules)]
+            selected_values = filtered_values[:len(modules)]
 
             print(f"\n📄 FALLBACK BLGV BOARD: {filename} [Page {i+1}]")
             for mod, val in zip(modules, selected_values):
-                if val == "MND":
-                    continue
                 try:
                     float_val = float(val)
                     print(f"  {mod:<4} = {float_val}")
