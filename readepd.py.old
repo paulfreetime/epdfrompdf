@@ -1,0 +1,62 @@
+import os
+import sys
+import contextlib
+import pdfplumber
+import pandas as pd
+
+FOLDER = "C:/code/EPDextract/EPDextract/epd"
+OUTPUT_FOLDER = "gwp_tables"
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+@contextlib.contextmanager
+def suppress_stderr():
+    with open(os.devnull, 'w') as fnull:
+        old_stderr = sys.stderr
+        sys.stderr = fnull
+        try:
+            yield
+        finally:
+            sys.stderr = old_stderr
+
+def is_gwp_table(table):
+    if not table:
+        return False
+    for row in table:
+        row_text = " ".join(str(cell or "").lower() for cell in row)
+        if "gwp" in row_text or "global warming" in row_text:
+            return True
+    return False
+
+
+def extract_gwp_tables(pdf_path):
+    gwp_tables = []
+    with suppress_stderr(), pdfplumber.open(pdf_path) as pdf:
+        for i, page in enumerate(pdf.pages):
+            tables = page.extract_tables()
+            for table in tables:
+                if not table or not table[0]:
+                    continue
+                header = " ".join(cell or "" for cell in table[0]).lower()
+                print(f"[DEBUG] Page {i+1} header: {header}")  # ADD THIS LINE
+
+                if "gwp" in header or "global warming" in header:
+                    df = pd.DataFrame(table[1:], columns=table[0])
+                    gwp_tables.append((i + 1, df))
+    return gwp_tables
+
+
+def main():
+    for filename in os.listdir(FOLDER):
+        if filename.lower().endswith(".pdf"):
+            full_path = os.path.join(FOLDER, filename)
+            tables = extract_gwp_tables(full_path)
+            if tables:
+                out_path = os.path.join(OUTPUT_FOLDER, f"{os.path.splitext(filename)[0]}.xlsx")
+                with pd.ExcelWriter(out_path, engine='xlsxwriter') as writer:
+                    for idx, (page_num, df) in enumerate(tables):
+                        sheet = f"p{page_num}_gwp{idx+1}"[:31]
+                        df.to_excel(writer, sheet_name=sheet, index=False)
+                        print(f"[+] Matched {len(tables)} GWP tables in {filename}")
+
+if __name__ == "__main__":
+    main()
