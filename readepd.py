@@ -7,6 +7,7 @@ import logging
 import pyodbc
 import os
 from readepd2 import try_alternative_parsing
+from readepd5 import extract_and_store_epse_gwp
 
 logging.getLogger("pdfminer").setLevel(logging.CRITICAL)
 warnings.filterwarnings("ignore")
@@ -295,23 +296,29 @@ def main():
     files_found = 0
 
     for filename in os.listdir(FOLDER):
-        if filename.lower().endswith(".pdf"):
-            files_found += 1
-            path = os.path.join(FOLDER, filename)
-            rows_before = cursor.execute(
-                "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
+    if filename.lower().endswith(".pdf"):
+        files_found += 1
+        path = os.path.join(FOLDER, filename)
 
-            extract_gwp_table(path, filename, cursor)
-            extract_gwp_horizontal_matrix(path, filename, cursor)
-            extract_gwp_from_lca_matrix(path, filename, cursor)
+        # NEW: Try EPSE-style parsing first
+        if "solid_wall" in filename.lower():
+            from readepd5 import extract_and_store_epse_gwp
+            extract_and_store_epse_gwp(path, cursor.connection)
+            continue
 
-            rows_after = cursor.execute(
-                "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
+        rows_before = cursor.execute(
+            "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
 
-            # Hvis ingen data blev fundet — prøv næste script
-            if rows_after == rows_before:
-                print(f"🔁 Trying fallback extraction for {filename}")
-                try_alternative_parsing(path, filename, cursor)
+        extract_gwp_table(path, filename, cursor)
+        extract_gwp_horizontal_matrix(path, filename, cursor)
+        extract_gwp_from_lca_matrix(path, filename, cursor)
+
+        rows_after = cursor.execute(
+            "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
+
+        if rows_after == rows_before:
+            print(f"🔁 Trying fallback extraction for {filename}")
+            try_alternative_parsing(path, filename, cursor)
 
     if files_found == 0:
         print("❌ No PDF files found in folder!")

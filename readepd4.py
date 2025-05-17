@@ -1,91 +1,95 @@
+import pdfplumber
 import os
 import re
-import fitz  # PyMuPDF for OCR fallback
-from openai import OpenAI
+import sqlite3
 
-# Config
-api_key = "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"
-assistant_id = "asst_sbqbsK3pIRqcycdo3taRwc6o"
-pdf_folder = "C:/Code/EPDextract/EPDextract/epd"
-
-client = OpenAI(
-    api_key=api_key,
-    default_headers={"OpenAI-Beta": "assistants=v2"}
-)
+FOLDER = "pdfs"
+DB_NAME = "gwp_data.db"
 
 
-def extract_text_locally(path):
+def init_db():
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS gwp_values (
+            filename TEXT,
+            page INTEGER,
+            module TEXT,
+            value REAL
+        )
+    ''')
+    conn.commit()
+    return conn
+
+
+def extract_gwp_values(pdf_path, filename, cursor):
     try:
-        doc = fitz.open(path)
-        blocks = []
-        for page in doc:
-            blocks.extend(page.get_text("blocks"))
-        # Sort top-down, left-right
-        blocks = sorted(blocks, key=lambda b: (round(b[1]), b[0]))
-        table = []
-        for b in blocks:
-            txt = b[4].strip()
-            if txt:
-                table.append(txt)
-        print("\n📊 RAW EXTRACTED TABLE-LIKE TEXT:\n")
-        for row in table:
-            print(row)
-        # Save to file so you can actually SEE the bastard output
-        with open("gwp_raw_output.txt", "w", encoding="utf-8") as f:
-            f.write("\n".join(table))
-        return "\n".join(table)
+        with pdfplumber.open(pdf_path) as pdf:
+            for i, page in enumerate(pdf.pages):
+                text = page.extract_text()
+                if not text:
+                    continue
+
+                full_text = text.replace(",", ".").replace(
+                    "- ", "-").replace("\n", " ")
+
+                # extract ALL scientific numbers from the page
+                values = re.findall(
+                    r"-?\d+(?:\.\d+)?(?:E[+-]?\d+)?", full_text)
+                values = [v for v in values if v.upper() != "MND"]
+
+                modules = ["A1", "A2", "C1", "C2", "C3", "C4"]
+
+                if len(values) < len(modules):
+                    print(f"TOO FEW VALUES on page {i+1}: got {len(values)}")
+                    continue
+
+                for mod, val in zip(modules, values[:len(modules)]):
+                    try:
+                        cursor.execute(
+                            "INSERT INTO gwp_values (filename, page, module, value) VALUES (?, ?, ?, ?)",
+                            (filename, i + 1, mod, float(val))
+                        )
+                        print(f"{filename} [Page {i+1}] {mod} = {float(val)}")
+                    except Exception as e:
+                        print(f"ERROR: {mod} = {val} in {filename}: {e}")
+                return
     except Exception as e:
-        return f"❌ Error extracting blocks: {e}"
+        print(f"FAILED TO PROCESS {filename}: {e}")
 
 
-def upload_to_assistant(text):
-    try:
-        thread = client.beta.threads.create()
-        content = (
-            "Here's raw extracted table-like text from a PDF."
-            " Parse it and extract all rows that contain GWP values, including scientific notation."
-            " Keep the structure intact if you can.\n\n" + text
-        )
-        client.beta.threads.messages.create(
-            thread_id=thread.id,
-            role="user",
-            content=content
-        )
-        run = client.beta.threads.runs.create(
-            thread_id=thread.id,
-            assistant_id=assistant_id
-        )
-        while True:
-            run_status = client.beta.threads.runs.retrieve(
-                thread_id=thread.id, run_id=run.id)
-            if run_status.status == "completed":
-                break
-            elif run_status.status == "failed":
-                return "❌ GPT failed like a clown."
-            time.sleep(1)
-        messages = client.beta.threads.messages.list(thread_id=thread.id)
-        for msg in reversed(messages.data):
-            if msg.role == "assistant":
-                for block in msg.content:
-                    if block.type == "text":
-                        return block.text.value
-        return "❌ Assistant gave no useful shit."
-    except Exception as e:
-        return f"💥 Upload failed: {e}"
+def try_gwp_blgv_signed(pdf_path, filename, cursor):
+    print(f"[RUNNING] try_gwp_blgv_signed for {filename}")
+    extract_gwp_values(pdf_path, filename, cursor)
 
 
 def main():
-    for file in os.listdir(pdf_folder):
-        if file.lower().endswith(".pdf"):
-            path = os.path.join(pdf_folder, file)
-            print(f"\n📄 {file}")
-            text = extract_text_locally(path)
-            if text.startswith("❌"):
-                print(text)
-                continue
-            reply = upload_to_assistant(text)
-            print("\n🤖 GPT's Interpretation:\n")
-            print(reply)
+    if not os.path.exists(FOLDER):
+        print("FOLDER DOES NOT EXIST.")
+        return
+
+    conn = init_db()
+    cursor = conn.cursor()
+
+    for filename in os.listdir(FOLDER):
+        if not filename.lower().endswith(".pdf"):
+            continue
+
+        path = os.path.join(FOLDER, filename)
+        rows_before = cursor.execute(
+            "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
+
+        try_gwp_blgv_signed(path, filename, cursor)
+
+        rows_after = cursor.execute(
+            "SELECT COUNT(*) FROM gwp_values").fetchone()[0]
+        if rows_after == rows_before:
+            print(f"NO GWP FOUND IN {filename}")
+
+    conn.commit()
+    cursor.execute("SELECT COUNT(*) FROM gwp_values")
+    print(f"TOTAL ROWS: {cursor.fetchone()[0]}")
+    conn.close()
 
 
 if __name__ == "__main__":

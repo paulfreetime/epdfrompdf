@@ -1,5 +1,6 @@
 import pdfplumber
 import re
+from readepd4 import try_gwp_blgv_signed
 
 # === Fallback parsing for: EPD_20_0103_004-EN_BLGV_boardstandard_00 ===
 
@@ -54,3 +55,4 @@ def try_gwp_blgv_board(pdf_path, filename, cursor):
 def try_final_fallback(pdf_path, filename, cursor):
     if "blgv" in filename.lower():
         try_gwp_blgv_board(pdf_path, filename, cursor)
+        try_gwp_blgv_signed(pdf_path, filename, cursor)
