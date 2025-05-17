@@ -49,12 +49,13 @@ def init_db():
     cursor.execute("""
         CREATE TABLE gwp_values (
             id INT IDENTITY(1,1) PRIMARY KEY,
-            filename NVARCHAR(255),
+             filename NVARCHAR(255),
+             indicator NVARCHAR(255),
             page INT,
             module NVARCHAR(20),
             value FLOAT
-        )
-    """)
+    )
+""")
     conn.commit()
     return conn
 
@@ -317,7 +318,18 @@ def main():
 
             if rows_after == rows_before:
                 print(f"🔁 Trying fallback extraction for {filename}")
-                try_alternative_parsing(path, filename, cursor)
+                success = try_alternative_parsing(path, filename, cursor)
+
+            if not success:
+                from readepd5 import extract_text_based_gwp_from_pdf
+                print(
+                    f"[Fallback] Trying text-based GWP extraction for {filename}")
+                extract_text_based_gwp_from_pdf(path, cursor, filename)
+
+                print(
+                    f"[OCR Fallback] All parsing failed for {filename}. Using OCR…")
+                from readepd5 import ocr_extract_gwp_from_pdf
+                ocr_extract_gwp_from_pdf(path, cursor, filename)
 
     if files_found == 0:
         print("❌ No PDF files found in folder!")

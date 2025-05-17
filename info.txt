@@ -2,3 +2,4 @@ https://raw.githubusercontent.com/paulfreetime/epdfrompdf/master/readepd.py
 https://raw.githubusercontent.com/paulfreetime/epdfrompdf/master/readepd2.py
 https://raw.githubusercontent.com/paulfreetime/epdfrompdf/master/readepd3.py
 https://raw.githubusercontent.com/paulfreetime/epdfrompdf/master/readepd4.py
+https://raw.githubusercontent.com/paulfreetime/epdfrompdf/master/readepd5.py
