@@ -7,26 +7,32 @@ def try_gwp_epse_style(pdf_path):
     doc = fitz.open(pdf_path)
     text = "\n".join(page.get_text() for page in doc)
 
-    # Locate the GWP table by finding the header line
-    match = re.search(
-        r"GWP\s*-\s*total.*?\(kg CO2.*?equiv/FU\).*?(\d[\s\S]+?)GWP\s*-\s*fossil", text, re.IGNORECASE)
-    if not match:
+    with open("debug_epse_dump.txt", "w", encoding="utf-8") as f:
+        f.write(text)
+
+    lines = text.split("\n")
+    gwp_line_index = -1
+
+    with open("debug_lines.txt", "w", encoding="utf-8") as debug_file:
+        for i in range(len(lines) - 4):
+            window = lines[i].lower() + lines[i+1].lower() + lines[i+2].lower()
+            debug_file.write(f"LINE {i}: {lines[i]}\n")
+            if "gwp" in window and "total" in window and "kg co2" in window:
+                gwp_line_index = i + 4  # value block starts 4 lines after header start
+                break
+
+    if gwp_line_index == -1 or gwp_line_index + 2 >= len(lines):
+        print("❌ GWP - total line not found")
         return None
 
-    data_block = match.group(1)
-    lines = data_block.strip().split("\n")
+    data_block = " ".join(lines[gwp_line_index: gwp_line_index + 25])
 
-    # Regex to find scientific notation values
-    pattern = r"[\d,]+E[+-]\d+"
-    gwp_values = []
+    # data_block = " ".join(lines[gwp_line_index: gwp_line_index + 10])
+    data_block = data_block.replace(",", ".")
+    values = re.findall(r"-?\d+\.\d+E[+-]?\d+", data_block)
 
-    for line in lines:
-        matches = re.findall(pattern, line)
-        if len(matches) >= 18:
-            gwp_values = matches[:18]  # First 18 stages
-            break
-
-    if not gwp_values:
+    if len(values) < 18:
+        print(f"❌ Found {len(values)} GWP values, expected 18.")
         return None
 
     stages = [
@@ -34,28 +40,30 @@ def try_gwp_epse_style(pdf_path):
         "C1", "C2", "C3", "C4", "D", "Total"
     ]
 
-    df = pd.DataFrame({"Stage": stages, "GWP_total_kgCO2eq": gwp_values})
+    df = pd.DataFrame({"Stage": stages, "GWP_total_kgCO2eq": values[:18]})
     return df
-
-# Example usage:
-# df = try_gwp_epse_style("EPD_solid_wall_20220720_1900398_24_2023-02-14.pdf")
-# if df is not None:
-#     print(df)
 
 
 def extract_and_store_epse_gwp(pdf_path, conn=None):
     df = try_gwp_epse_style(pdf_path)
     if df is None:
-        print(f"No GWP data found in {pdf_path}")
+        print(f"❌ No GWP data found in {pdf_path}")
         return
 
+    print(f"📄 Extracted EPSE GWP from {pdf_path}")
     print(df)
 
     if conn:
         cursor = conn.cursor()
         for _, row in df.iterrows():
-            cursor.execute("""
-                INSERT INTO gwp_values (filename, stage, gwp_value)
-                VALUES (?, ?, ?)
-            """, (pdf_path, row['Stage'], row['GWP_total_kgCO2eq']))
+            try:
+                cursor.execute("""
+                    INSERT INTO gwp_values (filename, page, module, value)
+                    VALUES (?, ?, ?, ?)
+                """, (pdf_path, 1, row['Stage'], float(row['GWP_total_kgCO2eq'])))
+            except Exception as e:
+                print(
+                    f"⚠️ DB insert failed for {row['Stage']} = {row['GWP_total_kgCO2eq']}: {e}")
         conn.commit()
+
+# THIS MODULE IS TO BE CALLED FROM readepd.py — NOT STANDALONE
