@@ -1,0 +1,1710 @@
+EPD number 
+1
+EPD 
+Environmental product declaration for Solid Polycarbonate sheets 
+In accordance with EN 15804+A2 and ISO 14025 
+ 
+ 
+ 
+ 
+Issue date: July 2022 
+Valid until: 2027 
+ 
+Owner of Declaration: 
+European Polycarbonate Sheet Extruders 
+Kortenberglaan 71 
+1000 Brussel 
+BELGIUM 
+ 
+ 
+ 
+
+EPD number 
+2
+Declared product(s): 
+Solid Polycarbonate sheets 
+ 
+Functional Unit:  
+1 kg of Solid Polycarbonate Sheets 
+Declared LCA stages with options: 
+A1-A3, A4, C1-C4, D 
+ 
+PCR (Product Category Rule):  
+EN15804:2012+A2:2019 
+Year of Study:  
+2022 
+ 
+Validity: 
+This EPD is valid for 5 years from the date of publication. 
+ 
+Verification:  
+ 
+ 
+                                                             
+               Internal                             External 
+   Third party verification conform to EN15804+A2 
+ 
+Signature of the verifier 
+ 
+Bernd Brandt 
+bernd@brandtconsulting.eu 
+Manufacturing site:  
+The EPD is declared for Multiple manufacturers 
+ 
+The EPD has been prepared by:  
+Arthur De Jaegher 
+arthur@enperas.com 
+arthur@enperas.com 
+ 
+Varun Gowda Palahalli 
+Ramesh 
+varun@enperas.com 
+ 
+Hannah Van Hees 
+ 
+Mihaela Thuring 
+mihaela.thuring@vito.be 
++32 14 33 58 97 
+ 
+ 
+ 
+Life cycle stages and modules (MND = module not declared) 
+Product stage 
+Construction 
+installation stage 
+Use stage 
+End of life stage 
+Beyond the 
+system 
+boundaries 
+Raw materials 
+Transport 
+Manufacturing 
+Transport 
+Construction installation 
+stage 
+Use 
+Maintenance 
+Repair 
+Replacement 
+Refurbishment 
+Operational energy use 
+Operational water use 
+De-construction 
+demolition 
+Transport 
+Waste processing 
+Disposal 
+Reuse-Recovery- 
+Recycling-potential 
+A1 
+A2 
+A3 
+A4 
+A5 
+B1 
+B2 
+B3 
+B4 
+B5 
+B6 
+B7 
+C1 
+C2 
+C3 
+C4 
+D 
+☒ 
+☒ 
+☒ 
+☒ 
+MND MND MND MND MND MND MND MND  
+☒ 
+☒ 
+☒ 
+☒ 
+☒ 
+
+EPD number 
+3
+Product Description 
+Technical data / Physical Characteristics 
+ 
+Table 1 Technical properties of the product 
+ 
+Technical property 
+Standard 
+Value/unit 
+Comment 
+Reaction to fire  
+EN 13501-1  
+B-s1, d0  
+Test according EN 
+13823 
+Dimensional tolerances  
+EN 16240  
+Pass/Fail 
+Light transmittance (τv) 
+EN 14500 
+% 
+Linear thermal 
+expansion 
+ISO 11359-2 
+65.10-6 K-1 
+Coefficient 
+Durability  
+EN 16240  
+∆A clear, ∆D 
+coloured 
+Test according to EN 
+ISO 4892-2 
+Thermal transmittance 
+(U value) 
+EN ISO 6946 
+3,5 – 5,8 W/m2K 
+Depending on thickness 
+ 
+Product name 
+Solid polycarbonate sheet 
+Product description and intended use 
+Solid polycarbonate sheets are unique engineering thermoplastics 
+that combine a high level of mechanical, optical and thermal 
+properties, which can be used for a wide range of glazing 
+applications. 
+Description of the production process and 
+technology 
+Sheets are formed by extrusion. Polycarbonate powder or pellets 
+are heated to a molten state and pushed through a die and over 
+calendering rolls of the desired cross section and then transported 
+over rollers to cool down in a continuous process. 
+ 
+. 
+Product Composition and content 
+The product does not contain materials listed in the “Candidate list 
+of Substances of Very High Concern for authorization” in a 
+concentration over 0,1% (w/w). 
+Table 1 Composition of the product in percentages  
+Components 
+Composition / content / 
+ingredients 
+Quantity 
+(range) 
+Product 
+ 
+Polycarbonate granulates 
+80 - 90% 
+Regrinded polycarbonate 
+granulates 
+10 – 15 % 
+UV-granulates 
+1 – 1,5 % 
+Pigments (white, grey, 
+brown/bronze, blue, violet, 
+red) 
+0,02 – 1,1% 
+ 
+
+EPD number 
+4
+LCA STUDY  
+DATE OF LCA STUDY 
+July 2022 
+SOFTWARE 
+For the calculation of the LCA results, the software program SimaPro 
+9.1.1.1 (PRé Consultants, 2021) and Quadrant tool has been used. 
+REFERENCE FLOW / DECLARED UNIT  
+Functional unit is the production of 1 kg of a “solid polycarbonate 
+sheet”. Solid sheets are typically available in thicknesses between 2 – 
+15 mm. 
+Table 3 Conversion factors for solid polycarbonate sheets 
+SOLID PC sheet 
+Value 
+Unit 
+Functional unit 
+1 
+kg 
+Gross weight per square meter 
+1,2 
+kg/m2/mm 
+Conversion factor to 1 m2 
+2 mm 
+0,417 
+- 
+3 mm 
+0,278 
+- 
+4 mm 
+0,208 
+- 
+5 mm 
+0,167 
+- 
+6 mm 
+0,139 
+- 
+8 mm 
+0,104 
+- 
+10 mm 
+0,083 
+- 
+12 mm 
+0,069 
+- 
+15 mm 
+0,056 
+- 
+ 
+INFORMATION ON ALLOCATION 
+At the manufacturing sites of the EPSE members, different types of 
+sheets are produced. In some cases, solid polycarbonate sheets are 
+produced only on certain production lines, with no co-products being 
+produced as part of the process. In some cases, only facility-level data 
+were available for electricity use, the use of natural gas, etc. The facility-
+level data have been allocated to the analyzed product using their 
+respective annual production volume (physical relationship), therefore 
+volume allocation is applied. 
+INFORMATION ON CUT OFF 
+All major raw materials and all the essential energy is included. 
+Packaging of one of the pigments used was not included, as data was 
+not available. The amount was very small, negligible, and considered 
+under the cut-off threshold. 
+REFERENCE SERVICE LIFE 
+Average reference service life is of 30 years 
+DESCRIPTION OF GEOGRAPHICAL 
+REPRESENTATIVITY 
+Europe 
+PRODUCTION SITES 
+Multiple manufacturers, multiple sites 
+INFORMATION ON CARBON OFFSETTING 
+Carbon 
+offsetting 
+is 
+not 
+allowed 
+in 
+the 
+EN 
+15804:2012+A2:2019 and hence not considered in the 
+calculations. 
+INFORMATION ON CARBONATION OF 
+CEMENTITIOUS MATERIALS 
+Nothing to declare 
+INFORMATION ON EXCLUDED PROCESSES 
+Environmental impacts caused by the personnel of the 
+production plants are not included in the LCA, e.g., waste 
+from the cafeteria and sanitary installations, accidental 
+pollution caused by human mistakes, or environmental 
+effects caused by commuter traffic. Heating or cooling of 
+the plants in order to ensure a comfortable indoor climate 
+for the personnel is also neglected. 
+ 
+
+EPD number 
+5
+Data 
+Specificity 
+The life cycle inventory for this study is performed by EPSE and 
+ENPERAS/VITO according to the ISO 14040 and ISO 14044 (data 
+inventory) standards (ISO, 2006).  
+Specific data have been collected for the processes under operational 
+control of EPSE companies. Generic data have been used for the 
+processes EPSE cannot influence. 
+Period of data collection 
+Data was collected for the year 2019. The final amounts are based on 
+the weighted averages of the 7 data providers. 
+Information on data collection 
+Company-specific data concern the data about the production of the 
+polycarbonate sheets. All required data about the production process 
+have been delivered to Enperas/VITO by EPSE. Enperas/VITO uses 
+publicly available generic data for all background processes such as 
+the production of electricity, transportation by means of a specific 
+truck, etc. The main LCI source used in this LCA study is the 
+Ecoinvent 3.6 database (June 2019). 
+Database used for background data 
+The main LCI source used in this study is the Ecoinvent 
+3.6 database (Wernet et al., 2016). 
+Energy mix 
+The European electricity mix (consumption mix + 
+import) has been used to model electricity use in life 
+cycle stages A3, C4 and D. The used record is the 
+Ecoinvent record ‘Electricity, medium voltage {Europe 
+without Switzerland} | market group for | Cut-off, U and 
+‘Electricity, low voltage {Europe without Switzerland}| 
+market group for | Cut-off, U’ 
+(Wernet et al., 2016).  
+
+ 
+ 
+6
+Details of the underlying scenarios used to calculate the impacts 
+A1 – Raw material supply 
+This module considers the extraction and processing of all raw 
+materials and energy which occur upstream to the studied 
+manufacturing process. 
+A2 – Transport to the manufacturer 
+The raw materials are transported to the manufacturing site. 
+Primary data was collected for each raw material from each 
+manufacturer. 
+A3 – Manufacturing 
+This module considers the production process. 
+A4 – Transport to the building site 
+Transport type 
+Unit 
+Comment 
+Truck 3,5 - 7,5t, 
+Euro5 
+km 
+Transportation from 
+merchant to installation  
+Truck 7,5 - 16t, 
+Euro5 
+km 
+Transportation from 
+merchant to installation 
+Truck 16 - 32t, 
+Euro5 
+km 
+Transportation from factory 
+to merchant  
+Truck > 32t, Euro5 
+km 
+Transportation from factory 
+to merchant 
+Transoceanic freight 
+ship 
+km 
+Transportation from factory 
+to merchant  
+A5 – Installation 
+The scope of the study is established as cradle-to-gate with 
+options, where A4 is included but A5 is not. For the installation 
+there are multiple build-up alternatives, depending on the 
+application. Accounting for all of them is not possible within the 
+framework of this study. However, the disposal of waste 
+generated from the packaging of the final product is normally 
+allocated to the installation phase, A5.  
+B – Use stage (excluding potential savings) 
+B1, B2, B3, B4, B5, B6: Modules are not declared. Since no 
+maintenance, replacement or operational energy use are 
+necessary during the Reference Service Life (RSL) of the 
+product (30 years), no environmental impacts occur during these 
+modules. 
+C – End of life 
+The polycarbonate solid sheets are 39,0% landfilled, 32,2% 
+incinerated and 28,8% recycled. The EU scenarios for the 
+transport of waste are: 
+The EU scenarios for the transport of waste are: 
+• 
+50 km with a 16–32-ton EURO 5 lorry from demolition 
+site to sorting plant/crusher/collection point and 
+landfilling. 
+• 
+150 km with a 16-32ton EURO 5 lorry from sorting 
+plant and incineration/energy recovery. 
+• 
+800 km with a 16-32ton EURO 5 lorry from sorting 
+plant and recycling. 
+ 
+C1: Dismantling 
+It is assumed that the dismantling of the PC sheets will only cover 
+the un-screwing the PC sheet from whatever build-up it is 
+installed. A generic assumption is that around 8 screws are 
+necessary for 1 m2 PC sheet and 1.11 screws are needed for the 
+FU of 1 kg of solid PC sheet, where an amount of 0,0216 kWh  
+per screw is used. The dataset used to model the impacts is 
+“Electricity, low voltage {Europe without Switzerland} | market 
+group for | Cut-off, U”. 
+C2-C4: The polycarbonate solid sheets are 39,0% landfilled, 
+32,2% incinerated and 28,8% recycled. 
+ 
+C2 – Transport to waste processing 
+Type of vehicle 
+(truck/boat/etc.) 
+Distance 
+(km) 
+Capacity utilisation 
+(%), Density of 
+products 
+(kg/m3) and 
+assumptions 
+Truck 16-32 ton  
+50 
+Ecoinvent scenario 
+Truck 16-32 ton  
+150 
+Ecoinvent scenario 
+Truck 16-32 ton  
+800 
+Ecoinvent scenario 
+End-of-life modules – C3 and C4  
+Parameter 
+Unit 
+Value 
+Waste for re-use 
+kg 
+0 
+Waste for recycling 
+kg 
+0,28 
+Waste for energy recovery 
+kg 
+0,32 
+Waste for final disposal 
+kg 
+0,39 
+D – Benefits and loads beyond the system 
+boundaries 
+The benefits beyond the system boundaries include the end-of-
+waste: 28,8% recycled polycarbonate and 32,2% incinerated 
+polycarbonate of the final product at its end-of-life. Packaging 
+waste is also considered, following the average European End of 
+Life (EoL) scenarios (Annex C of the PEFCR guidance) from the 
+below table. 
+Product 
+Landfill  
+Incineration 
+and/or 
+energy 
+recovery 
+Recycling  
+Reuse  
+Wooden 
+pallets 
+38% 
+32% 
+30% 
+0% 
+PE foil 
+packaging 
+39% 
+32% 
+29% 
+0% 
+PE straps 
+39% 
+32% 
+29% 
+0% 
+PE 
+packaging 
+39% 
+32% 
+29% 
+0% 
+Cardboard 
+sheet 
+14% 
+11% 
+75% 
+0% 
+Container 
+with PE-
+liner 
+39% 
+32% 
+29% 
+0% 
+Polystyrene 
+packaging 
+39% 
+32% 
+29% 
+0% 
+Octabin 
+14% 
+11% 
+75% 
+0% 
+
+ 
+ 
+7
+Potential environmental impacts per reference flow 
+ 
+ 
+GWP total = Total Global Warming Potential (Climate Change); GWP – fossil = Global Warming Potential (Climate Change) fossil, GWP-biogenic= Global Warming Potential (Climate change) biogenic GWP-luluc = Global Warming Potential 
+(Climate Change) land use and land use change; ODP = Ozone Depletion Potential; AP = Acidification Potential for Soil and Water; EP = Eutrophication Potential; EP-marine = Eutrophication Potential, marine; EP-marine = Eutrophication Potential, 
+terrestrial; POCP = Photochemical Ozone Creation; ADP-minerals&metals = Abiotic Depletion Potential – minerals and metals; ADP fossil = Abiotic Depletion Potential – Fossil Fuels; WDP = water use (Water (user) deprivation potential, deprivation-
+weighted water consumption 
+A1 Raw material
+A2 Transport
+A3 
+Manufacturing
+A4 Transport
+A5 Installation
+B1 Use
+B2 Maintenance
+B3 Repair
+B4 Replacement
+B5 Refurbishment
+B6 Operational 
+energy use
+B7 Operational 
+water use
+C1 
+Deconstruction / 
+demolition
+C2 Transport
+C3 Waste 
+processing
+C4 Disposal
+GWP - total
+(kg CO2 
+equiv/FU)
+3,42E+00
+1,05E-01
+6,51E-01
+2,36E-01
+2,06E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,04E-02
+4,98E-02
+8,19E-04
+8,02E-01
+-8,67E-01
+5,48E+00
+GWP - fossil
+(kg CO2 
+equiv/FU)
+3,43E+00
+1,05E-01
+6,99E-01
+2,36E-01
+3,70E-02
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,03E-02
+4,98E-02
+8,08E-04
+8,02E-01
+-8,65E-01
+5,37E+00
+GWP - 
+biogenic
+(kg CO2 
+equiv/FU)
+-9,11E-03
+6,15E-05
+-4,99E-02
+9,96E-05
+1,69E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+7,20E-05
+2,03E-05
+1,04E-05
+5,92E-05
+-1,51E-03
+1,11E-01
+GWP – luluc 
+(kg CO2 
+equiv/FU)
+1,44E-03
+4,57E-05
+1,52E-03
+8,76E-05
+2,43E-06
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,39E-05
+1,74E-05
+7,62E-07
+1,56E-05
+-6,40E-04
+3,15E-03
+ODP
+(kg CFC 11 
+equiv/FU)
+1,14E-07
+2,28E-08
+5,81E-08
+5,35E-08
+1,53E-09
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+8,67E-10
+1,13E-08
+6,47E-11
+6,53E-09
+-5,51E-08
+2,69E-07
+AP 
+(kg mol H+ 
+equiv/FU)
+7,28E-03
+5,48E-04
+6,56E-03
+1,01E-03
+5,19E-05
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+6,01E-05
+2,03E-04
+3,78E-06
+2,35E-04
+-2,10E-03
+1,59E-02
+EP - freshwater 
+(kg P 
+equiv/FU)
+3,11E-05
+1,14E-06
+6,60E-05
+1,93E-06
+1,04E-07
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,10E-06
+3,91E-07
+9,42E-08
+7,85E-07
+-2,12E-05
+1,03E-04
+EP - marine
+(kg N - 
+equiv/FU)
+1,82E-03
+1,57E-04
+6,91E-04
+2,89E-04
+2,22E-05
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+7,62E-06
+6,03E-05
+1,14E-06
+1,41E-04
+-4,32E-04
+3,19E-03
+EP – terrestrial 
+(mol N – 
+equiv/FU)
+1,86E-02
+1,74E-03
+1,43E-02
+3,20E-03
+2,24E-04
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+9,39E-05
+6,67E-04
+1,39E-05
+1,03E-03
+-4,79E-03
+3,99E-02
+POCP 
+(kg NMVOC 
+equiv/FU)
+6,00E-03
+5,15E-04
+2,39E-03
+9,83E-04
+6,43E-05
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,38E-05
+2,04E-04
+3,46E-06
+2,76E-04
+-1,48E-03
+1,05E-02
+ADP – 
+minerals&metal
+s (kg Sb 
+equiv/FU)
+2,24E-06
+1,92E-07
+4,57E-06
+4,87E-07
+1,20E-08
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,40E-08
+9,69E-08
+1,10E-09
+4,41E-08
+-3,63E-07
+7,65E-06
+ADP
+fossil (MJ/FU)
+8,86E+01
+1,57E+00
+1,32E+01
+3,56E+00
+1,07E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,12E-01
+7,50E-01
+1,10E-02
+2,63E-01
+-1,97E+01
+1,08E+02
+WDP
+(m3 world eq. 
+deprived/FU)
+4,28E+00
+5,16E-03
+2,48E-01
+1,03E-02
+5,67E-04
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,37E-03
+2,09E-03
+3,66E-05
+9,52E-03
+-6,55E-01
+4,56E+00
+Production
+Construction process stage
+Use stage
+End-of-life stage
+D Reuse, recovery, 
+recycling
+Total excl module D
+
+ 
+ 
+8
+Resource use 
+ 
+ 
+PERE = Use of renewable primary energy excluding renewable primary energy resources used as raw materials; PERM = Use of renewable primary energy resources used as raw materials; PERT = Total use of renewable primary energy resources; 
+PENRE = Use of non-renewable primary energy excluding non-renewable primary energy resources used as raw materials; PENRM = Use of non-renewable primary energy resources used as raw materials; PENRT = Total use of non-renewable 
+primary energy resources; SM = Use of secondary material; RSF = Use of renewable secondary fuels; NRSF = Use of non-renewable secondary fuels; FW = Net use of fresh water
+A1 Raw material
+A2 Transport
+A3 
+Manufacturing
+A4 Transport
+A5 Installation
+B1 Use
+B2 Maintenance
+B3 Repair
+B4 Replacement
+B5 
+Refurbishment
+B6 Operational 
+energy use
+B7 Operational 
+water use
+C1 
+Deconstruction / 
+demolition
+C2 Transport
+C3 Waste 
+processing
+C4 Disposal
+PERE
+(MJ equiv/FU)
+9,89E-01
+3,12E-02
+3,11E+00
+5,13E-02
+3,61E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+3,96E-02
+1,04E-02
+1,53E-03
+2,09E-02
+-2,85E+00
+4,61E+00
+PERM
+(MJ equiv/FU)
+1,18E-01
+0,00E+00
+1,37E+00
+0,00E+00
+-3,59E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,13E+00
+PERT
+(MJ equiv/FU)
+1,11E+00
+3,12E-02
+4,48E+00
+5,13E-02
+2,75E-03
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+3,96E-02
+1,04E-02
+1,53E-03
+2,09E-02
+-2,85E+00
+5,74E+00
+PENRE
+(MJ equiv/FU)
+8,48E+01
+1,59E+00
+1,42E+01
+3,59E+00
+4,60E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,54E-01
+7,55E-01
+1,39E-02
+3,05E-01
+-2,01E+01
+1,06E+02
+PENRM
+(MJ equiv/FU)
+4,62E-02
+0,00E+00
+1,29E+00
+0,00E+00
+-3,51E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+9,85E-01
+PENRT
+(MJ equiv/FU)
+8,48E+01
+1,59E+00
+1,55E+01
+3,59E+00
+1,10E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,54E-01
+7,55E-01
+1,39E-02
+3,05E-01
+-2,01E+01
+1,07E+02
+SM
+(kg/FU)
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+4,01E-01
+0,00E+00
+RSF
+(MJ equiv/FU)
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+NRSF
+(MJ equiv/FU)
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+FW
+(m³ water 
+eq/FU)
+1,08E-01
+1,55E-04
+9,83E-03
+2,67E-04
+6,43E-05
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,56E-04
+5,42E-05
+2,59E-06
+4,70E-04
+-1,79E-02
+1,19E-01
+Resource use
+Production
+Construction process stage
+Use stage
+End-of-life stage
+D Reuse, recovery, 
+recycling
+Total excl module D
+
+ 
+ 
+9
+Waste categories & output flows 
+ 
+ 
+ 
+ 
+ 
+A1 Raw material
+A2 Transport
+A3 
+Manufacturing
+A4 Transport
+A5 Installation
+B1 Use
+B2 Maintenance
+B3 Repair
+B4 Replacement
+B5 Refurbishment
+B6 Operational 
+energy use
+B7 Operational 
+water use
+C1 
+Deconstruction / 
+demolition
+C2 Transport
+C3 Waste 
+processing
+C4 Disposal
+Hazardous 
+waste disposed
+(kg/FU)
+2,68E-06
+3,94E-06
+1,49E-05
+9,31E-06
+2,54E-07
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,41E-07
+1,97E-06
+1,80E-08
+6,93E-07
+-7,43E-06
+3,39E-05
+Non-hazardous 
+waste disposed
+(kg/FU)
+6,24E-02
+6,89E-02
+1,74E-01
+1,71E-01
+9,02E-02
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+7,48E-04
+3,59E-02
+4,09E-05
+4,02E-01
+-2,17E-02
+1,01E+00
+Radioactive 
+waste disposed
+(kg/FU)
+1,49E-05
+1,06E-05
+6,85E-05
+2,42E-05
+6,87E-07
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,50E-06
+5,12E-06
+5,17E-08
+1,20E-06
+-2,67E-05
+1,27E-04
+Components 
+for re-use
+(kg/FU)
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+Materials for 
+recycling
+(kg/FU)
+0,00E+00
+0,00E+00
+5,48E-02
+0,00E+00
+5,81E-02
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+2,88E-01
+0,00E+00
+-4,01E-01
+4,01E-01
+Materials for 
+energy 
+recovery
+(kg/FU)
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+Exported 
+energy
+(MJ/FU)
+0,00E+00
+0,00E+00
+1,43E-02
+0,00E+00
+2,56E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+-2,70E-01
+2,70E-01
+Waste categories and output flows
+Production
+Construction process stage
+Use stage
+End-of-life stage
+D Reuse, recovery, 
+recycling
+Total excl module D
+
+ 
+ 
+10
+Impact categories additional to EN 15804+A2 
+ 
+ 
+ 
+PM = Particulate Matter (Potential incidence of disease due to PM emissions); IRP = Ionizing Radiation Potential – human health effects (Potential Human exposure efficiency relative to U235); ETP-fw = Ecotoxicity – freshwater; (potential 
+comparative toxic unit); HTP- c = Human Toxicity – cancer effects; HTP-nc = Human Toxicity – non cancer effects; SQP = Soil Quality Index, land use related impacts 
+Information on Biogenic Carbon content 
+ 
+There is no biogenic carbon content in the product. Uptake of biogenic CO2 within the pallets and the carton is reported in module A3, release in module A5. 
+  
+Biogenic carbon content (kg C / FU) 
+Biogenic carbon content in product (at the gate) 
+0,00E+00 
+Biogenic carbon content in accompanying packaging (at the gate) 
+4,82E-02 
+A1 Raw material
+A2 Transport
+A3 
+Manufacturing
+A4 Transport
+A5 Installation
+B1 Use
+B2 Maintenance
+B3 Repair
+B4 Replacement
+B5 Refurbishment
+B6 Operational 
+energy use
+B7 Operational 
+water use
+C1 
+Deconstruction / 
+demolition
+C2 Transport
+C3 Waste 
+processing
+C4 Disposal
+Production
+Construction process stage
+Use stage
+End-of-life stage
+D Reuse, recovery, 
+recycling
+Total excl module D
+PM
+(disease 
+incidence 
+eq/FU)
+5,56E-08
+7,12E-09
+3,81E-08
+1,62E-08
+7,20E-10
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,57E-10
+3,46E-09
+5,91E-11
+2,06E-09
+-1,12E-08
+1,23E-07
+IRP
+(kg U235 
+eq/FU)
+1,83E-01
+7,01E-03
+8,38E-02
+1,56E-02
+4,55E-04
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,83E-03
+3,28E-03
+3,74E-05
+1,07E-03
+-5,54E-02
+2,96E-01
+ETP - fw
+(CTUe/FU)
+4,60E+01
+1,29E+00
+2,42E+01
+2,89E+00
+1,03E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,45E-01
+6,01E-01
+8,83E-03
+2,26E+00
+-8,21E+00
+7,75E+01
+HTP - c
+(CTUh/FU)
+5,06E-09
+4,21E-11
+1,07E-09
+8,34E-11
+2,39E-11
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+3,75E-12
+1,69E-11
+2,81E-13
+1,53E-10
+-4,22E-10
+6,45E-09
+HTP - nc
+(CTUh/FU)
+3,87E-08
+1,39E-09
+2,62E-08
+3,13E-09
+1,72E-10
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+1,28E-10
+6,55E-10
+8,03E-12
+1,53E-09
+-6,92E-09
+7,19E-08
+SQP (/)
+3,67E+00
+1,06E+00
+2,56E+01
+2,47E+00
+1,07E-01
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+0,00E+00
+5,17E-02
+5,17E-01
+6,66E-03
+2,89E-01
+-1,74E+01
+3,38E+01
+
+ 
+ 
+11
+Environmental impact categories explained 
+ 
+ 
+Global Warming Potential 
+The global warming potential of a gas refers to the total contribution to global warming resulting 
+from the emission of one unit of that gas relative to one unit of the reference gas, carbon dioxide, 
+which is assigned a value of 1. 
+ 
+It is split up in 4: 
+ 
+- 
+Global Warming Potential total (GWP-total) which is the sum of GWP-fossil, GWP-biogenic 
+and GWP-luluc 
+- 
+Global Warming Potential fossil fuels (GWP-fossil): The global warming potential related to 
+greenhouse gas (GHG) emissions to any media originating from the oxidation and/or reduction 
+of fossil fuels by means of their transformation or degradation (e.g. combustion, digestion, 
+landfilling, etc). 
+- 
+Global Warming Potential biogenic (GWP-biogenic) : The global warming potential related to 
+carbon emissions to air (CO2, CO and CH4) originating from the oxidation and/or reduction of 
+aboveground biomass by means of its transformation or degradation (e.g. combustion, 
+digestion, composting, landfilling) and CO2 uptake from the atmosphere through photosynthesis 
+during biomass growth – i.e. corresponding to the carbon content of products, biofuels or above 
+ground plant residues such as litter and dead wood.1 
+- 
+Global Warming Potential land use and land use change (GWP-luluc): The global warming 
+potential related to carbon uptakes and emissions (CO2, CO and CH4) originating from carbon 
+stock changes caused by land use change and land use. This sub-category includes biogenic 
+carbon exchanges from deforestation, road construction or other soil activities (including soil 
+carbon emissions).   
+ 
+ 
+Ozone Depletion Potential 
+Destruction of the stratospheric ozone layer which shields the earth from ultraviolet radiation 
+harmful to life. This destruction of ozone is caused by the breakdown of certain chlorine and/or 
+bromine containing compounds (chlorofluorocarbons or halons), Which break down when they 
+reach the stratosphere and then catalytically destroy ozone molecules. 
+ 
+Acidification Potential 
+ 
+Acid depositions have negative impacts on natural ecosystems and the man-made environment incl. 
+buildings. The main sources for emissions of acidifying substances are agriculture and fossil fuel 
+combustion used for electricity production, heating and transport. 
+ 
+Eutrophication Potential 
+ 
+The potential to cause over-fertilization of water and soil, which can result in increased growth of 
+biomass and following adverse effects. 
+ 
+It is split up in 3:  
+ 
+- 
+Eutrophication Potential – freshwater: The potential to cause over-fertilization of freshwater, 
+which can result in increased growth of biomass and following adverse effects. 
+- 
+Eutrophication Potential – marine: The potential to cause over-fertilization of marine water, 
+which can result in increased growth of biomass and following adverse effects. 
+- 
+Eutrophication Potential – terrestrial: The potential to cause over-fertilization of soil, which 
+can result in increased growth of biomass and following adverse effects. 
+ 
+Photochemical ozone 
+Creation Potential 
+ 
+Chemical reactions brought about by the light energy of the sun creating photochemical smog. The 
+reaction of nitrogen oxides with hydrocarbons in the presence of sunlight to form ozone is an example 
+of a photochemical reaction. 
+ 
+Abiotic Depletion Potential  
+for non-fossil resources 
+Consumption of non-renewable resources, thereby lowering their availability for future generations. 
+Expressed in comparison to Antimony (Sb). 
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+Abiotic Depletion Potential  
+for fossil resources 
+Measure for the depletion of fossil fuels such as oil, natural gas, and coal. The stock of the fossil 
+fuels is formed by the total amount of fossil fuels, expressed in Megajoules (MJ).  
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+1 Carbon exchanges from native forests shall be modelled under GWP - luluc (including connected soil emissions, derived products, or residues), while their CO2 uptake is 
+excluded. 
+
+ 
+ 
+12
+ 
+Ecotoxicity for aquatic fresh 
+water 
+The impacts of chemical substances on ecosystems (freshwater). 
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+Human toxicity (carcinogenic 
+effects) 
+ 
+The impacts of chemical substances on human health via three parts of the environment: air, soil 
+and water.  
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+Human toxicity (non-
+carcinogenic effects) 
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+Particulate matter  
+Accounts for the adverse health effects on human health caused by emissions of Particulate Matter 
+(PM) and its precursors (NOX, SOX, NH3) 
+ 
+Resource depletion (water) 
+Accounts for water use related to local scarcity of water as freshwater is a scarce resource in some 
+regions, while in others it is not. 
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+Ionizing radiation - human 
+health effects 
+ 
+This impact category deals mainly with the eventual impact on human health of low dose ionizing 
+radiation of the nuclear fuel cycle. It does not consider effects due to possible nuclear accidents, 
+occupational exposure nor due to radioactive waste disposal in underground facilities. Potential 
+ionizing radiation from the soil, from radon and from some construction materials is also not 
+measured by this indicator.  
+ 
+Land use related impacts 
+The indicator is the “soil quality index” which is the result of an aggregation of following four 
+aspects: 
+- 
+Biotic production 
+- 
+Erosion resistance 
+- 
+Mechanical filtration 
+- 
+Groundwater  
+The aggregation is done based on a JRC model. The four aspects are quantified through the LANCA 
+model for land use. 
+ 
+The results of this environmental impact indicator shall be used with care as the uncertainties on 
+these results are high or as there is limited experienced with the indicator.  
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+13
+Additional information on Release of dangerous substances to indoor air, soil  
+and water during the use stage 
+ 
+Indoor air 
+Not relevant for the considered applications 
+Soil and water 
+Not relevant for the considered applications 
+ 
+ 
+ 
+
+ 
+ 
+14
+BIBLIOGRAPHY 
+ 
+- 
+ISO 14040:2006: Environmental Management-Life Cycle Assessment-Principles and framework.  
+- 
+ISO 14044:2006: Environmental Management-Life Cycle Assessment-Requirements and guidelines.  
+- 
+ISO 14025:2006: Environmental labels and Declarations-Type III Environmental Declarations-Principles and procedures.  
+- 
+EN 15804+A2:2019. CEN TC350. Sustainability of construction works - Environmental product declarations - Core rules for the product 
+category of construction products. European standard. 
+- 
+NBN/DTD B 08-001 (BE-PCR) 
+- 
+European Commission, PEFCR Guidance document, - Guidance for the development of Product Environmental Footprint Category Rules 
+(PEFCRs), version 6.3, December 2017. 
+- 
+Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., and Weidema, B., 2016. The ecoinvent database version 3 (part I): overview 
+and 
+methodology. 
+The 
+International 
+Journal 
+of 
+Life 
+Cycle 
+Assessment, 
+[online] 
+21(9), 
+pp.1218–1230. 
+Available 
+at: 
+<http://link.springer.com/10.1007/s11367-016-1087-8> [2019]. 
+- 
+Document by French Ministry of the environment, energy, and the sea French Ministry of sustainable housing: “Generic data to be used for 
+compliance with the “Energy Carbon” guidelines for new buildings” issued in 2019, provided by EPSE.  
+- 
+Project report of EPSE: Life cycle assessment for solid and multiwall polycarbonate sheets produced by the European Polycarbonate Sheet 
+Extruders; December 2021, authors: Mihaela Thuring, Hannah Van Hees and Varun Gowda
+
+ 
+ 
+15 
+General information  
+ 
+Owner of the EPD,  
+Responsible for the data, LCA and information 
+European Polycarbonate Sheet Extruders 
+Kortenberglaan 71 
+1000 Brussel 
+BELGIUM  
+ 
+ 
+Based on following PCR documents 
+ 
+ 
+ 
+ 
+EN 15804:2012+A2:2019  
+NBN/DTD B 08-001 and its complement 
+EN16757:2017 
+ 
+ 
+Author(s) of the LCA and EPD 
+Mihaela Thuring / Arthur De Jaegher / Varun Gowda 
+Palahalli Ramesh / Hannah Van Hees 
+mihaela.thuring@vito.be / 
+arthur@enperas.com / varun@enperas.com 
+ 
+Identification of the project report 
+Life cycle assessment for solid and multiwall 
+polycarbonate sheets produced by the European 
+Polycarbonate Sheet Extruders 
+ 
+Verification 
+ 
+External independent verification of the declaration and 
+data according to EN ISO 14025 and relevant PCR 
+documents 
+Verifier: 
+Bernd Brandt, bernd@brandtconsulting.eu 
+ 
+ 
+ 
+ 
+ 
+ 
+Members of EPSE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

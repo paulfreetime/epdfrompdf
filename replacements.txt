@@ -1,0 +1,3 @@
+api_key = "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"
+assistant_id = "asst_sbqbsK3pIRqcycdo3taRwc6o"
+pdf_folder = "C:/Code/EPDextract/EPDextract/epd"

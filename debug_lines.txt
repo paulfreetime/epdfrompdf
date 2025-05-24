@@ -1,0 +1,551 @@
+LINE 0: EPD number 
+LINE 1: 1
+LINE 2: EPD 
+LINE 3: Environmental product declaration for Solid Polycarbonate sheets 
+LINE 4: In accordance with EN 15804+A2 and ISO 14025 
+LINE 5:  
+LINE 6:  
+LINE 7:  
+LINE 8:  
+LINE 9: Issue date: July 2022 
+LINE 10: Valid until: 2027 
+LINE 11:  
+LINE 12: Owner of Declaration: 
+LINE 13: European Polycarbonate Sheet Extruders 
+LINE 14: Kortenberglaan 71 
+LINE 15: 1000 Brussel 
+LINE 16: BELGIUM 
+LINE 17:  
+LINE 18:  
+LINE 19:  
+LINE 20: 
+LINE 21: EPD number 
+LINE 22: 2
+LINE 23: Declared product(s): 
+LINE 24: Solid Polycarbonate sheets 
+LINE 25:  
+LINE 26: Functional Unit:  
+LINE 27: 1 kg of Solid Polycarbonate Sheets 
+LINE 28: Declared LCA stages with options: 
+LINE 29: A1-A3, A4, C1-C4, D 
+LINE 30:  
+LINE 31: PCR (Product Category Rule):  
+LINE 32: EN15804:2012+A2:2019 
+LINE 33: Year of Study:  
+LINE 34: 2022 
+LINE 35:  
+LINE 36: Validity: 
+LINE 37: This EPD is valid for 5 years from the date of publication. 
+LINE 38:  
+LINE 39: Verification:  
+LINE 40:  
+LINE 41:  
+LINE 42:                                                              
+LINE 43:                Internal                             External 
+LINE 44:    Third party verification conform to EN15804+A2 
+LINE 45:  
+LINE 46: Signature of the verifier 
+LINE 47:  
+LINE 48: Bernd Brandt 
+LINE 49: bernd@brandtconsulting.eu 
+LINE 50: Manufacturing site:  
+LINE 51: The EPD is declared for Multiple manufacturers 
+LINE 52:  
+LINE 53: The EPD has been prepared by:  
+LINE 54: Arthur De Jaegher 
+LINE 55: arthur@enperas.com 
+LINE 56: arthur@enperas.com 
+LINE 57:  
+LINE 58: Varun Gowda Palahalli 
+LINE 59: Ramesh 
+LINE 60: varun@enperas.com 
+LINE 61:  
+LINE 62: Hannah Van Hees 
+LINE 63:  
+LINE 64: Mihaela Thuring 
+LINE 65: mihaela.thuring@vito.be 
+LINE 66: +32 14 33 58 97 
+LINE 67:  
+LINE 68:  
+LINE 69:  
+LINE 70: Life cycle stages and modules (MND = module not declared) 
+LINE 71: Product stage 
+LINE 72: Construction 
+LINE 73: installation stage 
+LINE 74: Use stage 
+LINE 75: End of life stage 
+LINE 76: Beyond the 
+LINE 77: system 
+LINE 78: boundaries 
+LINE 79: Raw materials 
+LINE 80: Transport 
+LINE 81: Manufacturing 
+LINE 82: Transport 
+LINE 83: Construction installation 
+LINE 84: stage 
+LINE 85: Use 
+LINE 86: Maintenance 
+LINE 87: Repair 
+LINE 88: Replacement 
+LINE 89: Refurbishment 
+LINE 90: Operational energy use 
+LINE 91: Operational water use 
+LINE 92: De-construction 
+LINE 93: demolition 
+LINE 94: Transport 
+LINE 95: Waste processing 
+LINE 96: Disposal 
+LINE 97: Reuse-Recovery- 
+LINE 98: Recycling-potential 
+LINE 99: A1 
+LINE 100: A2 
+LINE 101: A3 
+LINE 102: A4 
+LINE 103: A5 
+LINE 104: B1 
+LINE 105: B2 
+LINE 106: B3 
+LINE 107: B4 
+LINE 108: B5 
+LINE 109: B6 
+LINE 110: B7 
+LINE 111: C1 
+LINE 112: C2 
+LINE 113: C3 
+LINE 114: C4 
+LINE 115: D 
+LINE 116: ☒ 
+LINE 117: ☒ 
+LINE 118: ☒ 
+LINE 119: ☒ 
+LINE 120: MND MND MND MND MND MND MND MND  
+LINE 121: ☒ 
+LINE 122: ☒ 
+LINE 123: ☒ 
+LINE 124: ☒ 
+LINE 125: ☒ 
+LINE 126: 
+LINE 127: EPD number 
+LINE 128: 3
+LINE 129: Product Description 
+LINE 130: Technical data / Physical Characteristics 
+LINE 131:  
+LINE 132: Table 1 Technical properties of the product 
+LINE 133:  
+LINE 134: Technical property 
+LINE 135: Standard 
+LINE 136: Value/unit 
+LINE 137: Comment 
+LINE 138: Reaction to fire  
+LINE 139: EN 13501-1  
+LINE 140: B-s1, d0  
+LINE 141: Test according EN 
+LINE 142: 13823 
+LINE 143: Dimensional tolerances  
+LINE 144: EN 16240  
+LINE 145: Pass/Fail 
+LINE 146: Light transmittance (τv) 
+LINE 147: EN 14500 
+LINE 148: % 
+LINE 149: Linear thermal 
+LINE 150: expansion 
+LINE 151: ISO 11359-2 
+LINE 152: 65.10-6 K-1 
+LINE 153: Coefficient 
+LINE 154: Durability  
+LINE 155: EN 16240  
+LINE 156: ∆A clear, ∆D 
+LINE 157: coloured 
+LINE 158: Test according to EN 
+LINE 159: ISO 4892-2 
+LINE 160: Thermal transmittance 
+LINE 161: (U value) 
+LINE 162: EN ISO 6946 
+LINE 163: 3,5 – 5,8 W/m2K 
+LINE 164: Depending on thickness 
+LINE 165:  
+LINE 166: Product name 
+LINE 167: Solid polycarbonate sheet 
+LINE 168: Product description and intended use 
+LINE 169: Solid polycarbonate sheets are unique engineering thermoplastics 
+LINE 170: that combine a high level of mechanical, optical and thermal 
+LINE 171: properties, which can be used for a wide range of glazing 
+LINE 172: applications. 
+LINE 173: Description of the production process and 
+LINE 174: technology 
+LINE 175: Sheets are formed by extrusion. Polycarbonate powder or pellets 
+LINE 176: are heated to a molten state and pushed through a die and over 
+LINE 177: calendering rolls of the desired cross section and then transported 
+LINE 178: over rollers to cool down in a continuous process. 
+LINE 179:  
+LINE 180: . 
+LINE 181: Product Composition and content 
+LINE 182: The product does not contain materials listed in the “Candidate list 
+LINE 183: of Substances of Very High Concern for authorization” in a 
+LINE 184: concentration over 0,1% (w/w). 
+LINE 185: Table 1 Composition of the product in percentages  
+LINE 186: Components 
+LINE 187: Composition / content / 
+LINE 188: ingredients 
+LINE 189: Quantity 
+LINE 190: (range) 
+LINE 191: Product 
+LINE 192:  
+LINE 193: Polycarbonate granulates 
+LINE 194: 80 - 90% 
+LINE 195: Regrinded polycarbonate 
+LINE 196: granulates 
+LINE 197: 10 – 15 % 
+LINE 198: UV-granulates 
+LINE 199: 1 – 1,5 % 
+LINE 200: Pigments (white, grey, 
+LINE 201: brown/bronze, blue, violet, 
+LINE 202: red) 
+LINE 203: 0,02 – 1,1% 
+LINE 204:  
+LINE 205: 
+LINE 206: EPD number 
+LINE 207: 4
+LINE 208: LCA STUDY  
+LINE 209: DATE OF LCA STUDY 
+LINE 210: July 2022 
+LINE 211: SOFTWARE 
+LINE 212: For the calculation of the LCA results, the software program SimaPro 
+LINE 213: 9.1.1.1 (PRé Consultants, 2021) and Quadrant tool has been used. 
+LINE 214: REFERENCE FLOW / DECLARED UNIT  
+LINE 215: Functional unit is the production of 1 kg of a “solid polycarbonate 
+LINE 216: sheet”. Solid sheets are typically available in thicknesses between 2 – 
+LINE 217: 15 mm. 
+LINE 218: Table 3 Conversion factors for solid polycarbonate sheets 
+LINE 219: SOLID PC sheet 
+LINE 220: Value 
+LINE 221: Unit 
+LINE 222: Functional unit 
+LINE 223: 1 
+LINE 224: kg 
+LINE 225: Gross weight per square meter 
+LINE 226: 1,2 
+LINE 227: kg/m2/mm 
+LINE 228: Conversion factor to 1 m2 
+LINE 229: 2 mm 
+LINE 230: 0,417 
+LINE 231: - 
+LINE 232: 3 mm 
+LINE 233: 0,278 
+LINE 234: - 
+LINE 235: 4 mm 
+LINE 236: 0,208 
+LINE 237: - 
+LINE 238: 5 mm 
+LINE 239: 0,167 
+LINE 240: - 
+LINE 241: 6 mm 
+LINE 242: 0,139 
+LINE 243: - 
+LINE 244: 8 mm 
+LINE 245: 0,104 
+LINE 246: - 
+LINE 247: 10 mm 
+LINE 248: 0,083 
+LINE 249: - 
+LINE 250: 12 mm 
+LINE 251: 0,069 
+LINE 252: - 
+LINE 253: 15 mm 
+LINE 254: 0,056 
+LINE 255: - 
+LINE 256:  
+LINE 257: INFORMATION ON ALLOCATION 
+LINE 258: At the manufacturing sites of the EPSE members, different types of 
+LINE 259: sheets are produced. In some cases, solid polycarbonate sheets are 
+LINE 260: produced only on certain production lines, with no co-products being 
+LINE 261: produced as part of the process. In some cases, only facility-level data 
+LINE 262: were available for electricity use, the use of natural gas, etc. The facility-
+LINE 263: level data have been allocated to the analyzed product using their 
+LINE 264: respective annual production volume (physical relationship), therefore 
+LINE 265: volume allocation is applied. 
+LINE 266: INFORMATION ON CUT OFF 
+LINE 267: All major raw materials and all the essential energy is included. 
+LINE 268: Packaging of one of the pigments used was not included, as data was 
+LINE 269: not available. The amount was very small, negligible, and considered 
+LINE 270: under the cut-off threshold. 
+LINE 271: REFERENCE SERVICE LIFE 
+LINE 272: Average reference service life is of 30 years 
+LINE 273: DESCRIPTION OF GEOGRAPHICAL 
+LINE 274: REPRESENTATIVITY 
+LINE 275: Europe 
+LINE 276: PRODUCTION SITES 
+LINE 277: Multiple manufacturers, multiple sites 
+LINE 278: INFORMATION ON CARBON OFFSETTING 
+LINE 279: Carbon 
+LINE 280: offsetting 
+LINE 281: is 
+LINE 282: not 
+LINE 283: allowed 
+LINE 284: in 
+LINE 285: the 
+LINE 286: EN 
+LINE 287: 15804:2012+A2:2019 and hence not considered in the 
+LINE 288: calculations. 
+LINE 289: INFORMATION ON CARBONATION OF 
+LINE 290: CEMENTITIOUS MATERIALS 
+LINE 291: Nothing to declare 
+LINE 292: INFORMATION ON EXCLUDED PROCESSES 
+LINE 293: Environmental impacts caused by the personnel of the 
+LINE 294: production plants are not included in the LCA, e.g., waste 
+LINE 295: from the cafeteria and sanitary installations, accidental 
+LINE 296: pollution caused by human mistakes, or environmental 
+LINE 297: effects caused by commuter traffic. Heating or cooling of 
+LINE 298: the plants in order to ensure a comfortable indoor climate 
+LINE 299: for the personnel is also neglected. 
+LINE 300:  
+LINE 301: 
+LINE 302: EPD number 
+LINE 303: 5
+LINE 304: Data 
+LINE 305: Specificity 
+LINE 306: The life cycle inventory for this study is performed by EPSE and 
+LINE 307: ENPERAS/VITO according to the ISO 14040 and ISO 14044 (data 
+LINE 308: inventory) standards (ISO, 2006).  
+LINE 309: Specific data have been collected for the processes under operational 
+LINE 310: control of EPSE companies. Generic data have been used for the 
+LINE 311: processes EPSE cannot influence. 
+LINE 312: Period of data collection 
+LINE 313: Data was collected for the year 2019. The final amounts are based on 
+LINE 314: the weighted averages of the 7 data providers. 
+LINE 315: Information on data collection 
+LINE 316: Company-specific data concern the data about the production of the 
+LINE 317: polycarbonate sheets. All required data about the production process 
+LINE 318: have been delivered to Enperas/VITO by EPSE. Enperas/VITO uses 
+LINE 319: publicly available generic data for all background processes such as 
+LINE 320: the production of electricity, transportation by means of a specific 
+LINE 321: truck, etc. The main LCI source used in this LCA study is the 
+LINE 322: Ecoinvent 3.6 database (June 2019). 
+LINE 323: Database used for background data 
+LINE 324: The main LCI source used in this study is the Ecoinvent 
+LINE 325: 3.6 database (Wernet et al., 2016). 
+LINE 326: Energy mix 
+LINE 327: The European electricity mix (consumption mix + 
+LINE 328: import) has been used to model electricity use in life 
+LINE 329: cycle stages A3, C4 and D. The used record is the 
+LINE 330: Ecoinvent record ‘Electricity, medium voltage {Europe 
+LINE 331: without Switzerland} | market group for | Cut-off, U and 
+LINE 332: ‘Electricity, low voltage {Europe without Switzerland}| 
+LINE 333: market group for | Cut-off, U’ 
+LINE 334: (Wernet et al., 2016).  
+LINE 335: 
+LINE 336:  
+LINE 337:  
+LINE 338: 6
+LINE 339: Details of the underlying scenarios used to calculate the impacts 
+LINE 340: A1 – Raw material supply 
+LINE 341: This module considers the extraction and processing of all raw 
+LINE 342: materials and energy which occur upstream to the studied 
+LINE 343: manufacturing process. 
+LINE 344: A2 – Transport to the manufacturer 
+LINE 345: The raw materials are transported to the manufacturing site. 
+LINE 346: Primary data was collected for each raw material from each 
+LINE 347: manufacturer. 
+LINE 348: A3 – Manufacturing 
+LINE 349: This module considers the production process. 
+LINE 350: A4 – Transport to the building site 
+LINE 351: Transport type 
+LINE 352: Unit 
+LINE 353: Comment 
+LINE 354: Truck 3,5 - 7,5t, 
+LINE 355: Euro5 
+LINE 356: km 
+LINE 357: Transportation from 
+LINE 358: merchant to installation  
+LINE 359: Truck 7,5 - 16t, 
+LINE 360: Euro5 
+LINE 361: km 
+LINE 362: Transportation from 
+LINE 363: merchant to installation 
+LINE 364: Truck 16 - 32t, 
+LINE 365: Euro5 
+LINE 366: km 
+LINE 367: Transportation from factory 
+LINE 368: to merchant  
+LINE 369: Truck > 32t, Euro5 
+LINE 370: km 
+LINE 371: Transportation from factory 
+LINE 372: to merchant 
+LINE 373: Transoceanic freight 
+LINE 374: ship 
+LINE 375: km 
+LINE 376: Transportation from factory 
+LINE 377: to merchant  
+LINE 378: A5 – Installation 
+LINE 379: The scope of the study is established as cradle-to-gate with 
+LINE 380: options, where A4 is included but A5 is not. For the installation 
+LINE 381: there are multiple build-up alternatives, depending on the 
+LINE 382: application. Accounting for all of them is not possible within the 
+LINE 383: framework of this study. However, the disposal of waste 
+LINE 384: generated from the packaging of the final product is normally 
+LINE 385: allocated to the installation phase, A5.  
+LINE 386: B – Use stage (excluding potential savings) 
+LINE 387: B1, B2, B3, B4, B5, B6: Modules are not declared. Since no 
+LINE 388: maintenance, replacement or operational energy use are 
+LINE 389: necessary during the Reference Service Life (RSL) of the 
+LINE 390: product (30 years), no environmental impacts occur during these 
+LINE 391: modules. 
+LINE 392: C – End of life 
+LINE 393: The polycarbonate solid sheets are 39,0% landfilled, 32,2% 
+LINE 394: incinerated and 28,8% recycled. The EU scenarios for the 
+LINE 395: transport of waste are: 
+LINE 396: The EU scenarios for the transport of waste are: 
+LINE 397: • 
+LINE 398: 50 km with a 16–32-ton EURO 5 lorry from demolition 
+LINE 399: site to sorting plant/crusher/collection point and 
+LINE 400: landfilling. 
+LINE 401: • 
+LINE 402: 150 km with a 16-32ton EURO 5 lorry from sorting 
+LINE 403: plant and incineration/energy recovery. 
+LINE 404: • 
+LINE 405: 800 km with a 16-32ton EURO 5 lorry from sorting 
+LINE 406: plant and recycling. 
+LINE 407:  
+LINE 408: C1: Dismantling 
+LINE 409: It is assumed that the dismantling of the PC sheets will only cover 
+LINE 410: the un-screwing the PC sheet from whatever build-up it is 
+LINE 411: installed. A generic assumption is that around 8 screws are 
+LINE 412: necessary for 1 m2 PC sheet and 1.11 screws are needed for the 
+LINE 413: FU of 1 kg of solid PC sheet, where an amount of 0,0216 kWh  
+LINE 414: per screw is used. The dataset used to model the impacts is 
+LINE 415: “Electricity, low voltage {Europe without Switzerland} | market 
+LINE 416: group for | Cut-off, U”. 
+LINE 417: C2-C4: The polycarbonate solid sheets are 39,0% landfilled, 
+LINE 418: 32,2% incinerated and 28,8% recycled. 
+LINE 419:  
+LINE 420: C2 – Transport to waste processing 
+LINE 421: Type of vehicle 
+LINE 422: (truck/boat/etc.) 
+LINE 423: Distance 
+LINE 424: (km) 
+LINE 425: Capacity utilisation 
+LINE 426: (%), Density of 
+LINE 427: products 
+LINE 428: (kg/m3) and 
+LINE 429: assumptions 
+LINE 430: Truck 16-32 ton  
+LINE 431: 50 
+LINE 432: Ecoinvent scenario 
+LINE 433: Truck 16-32 ton  
+LINE 434: 150 
+LINE 435: Ecoinvent scenario 
+LINE 436: Truck 16-32 ton  
+LINE 437: 800 
+LINE 438: Ecoinvent scenario 
+LINE 439: End-of-life modules – C3 and C4  
+LINE 440: Parameter 
+LINE 441: Unit 
+LINE 442: Value 
+LINE 443: Waste for re-use 
+LINE 444: kg 
+LINE 445: 0 
+LINE 446: Waste for recycling 
+LINE 447: kg 
+LINE 448: 0,28 
+LINE 449: Waste for energy recovery 
+LINE 450: kg 
+LINE 451: 0,32 
+LINE 452: Waste for final disposal 
+LINE 453: kg 
+LINE 454: 0,39 
+LINE 455: D – Benefits and loads beyond the system 
+LINE 456: boundaries 
+LINE 457: The benefits beyond the system boundaries include the end-of-
+LINE 458: waste: 28,8% recycled polycarbonate and 32,2% incinerated 
+LINE 459: polycarbonate of the final product at its end-of-life. Packaging 
+LINE 460: waste is also considered, following the average European End of 
+LINE 461: Life (EoL) scenarios (Annex C of the PEFCR guidance) from the 
+LINE 462: below table. 
+LINE 463: Product 
+LINE 464: Landfill  
+LINE 465: Incineration 
+LINE 466: and/or 
+LINE 467: energy 
+LINE 468: recovery 
+LINE 469: Recycling  
+LINE 470: Reuse  
+LINE 471: Wooden 
+LINE 472: pallets 
+LINE 473: 38% 
+LINE 474: 32% 
+LINE 475: 30% 
+LINE 476: 0% 
+LINE 477: PE foil 
+LINE 478: packaging 
+LINE 479: 39% 
+LINE 480: 32% 
+LINE 481: 29% 
+LINE 482: 0% 
+LINE 483: PE straps 
+LINE 484: 39% 
+LINE 485: 32% 
+LINE 486: 29% 
+LINE 487: 0% 
+LINE 488: PE 
+LINE 489: packaging 
+LINE 490: 39% 
+LINE 491: 32% 
+LINE 492: 29% 
+LINE 493: 0% 
+LINE 494: Cardboard 
+LINE 495: sheet 
+LINE 496: 14% 
+LINE 497: 11% 
+LINE 498: 75% 
+LINE 499: 0% 
+LINE 500: Container 
+LINE 501: with PE-
+LINE 502: liner 
+LINE 503: 39% 
+LINE 504: 32% 
+LINE 505: 29% 
+LINE 506: 0% 
+LINE 507: Polystyrene 
+LINE 508: packaging 
+LINE 509: 39% 
+LINE 510: 32% 
+LINE 511: 29% 
+LINE 512: 0% 
+LINE 513: Octabin 
+LINE 514: 14% 
+LINE 515: 11% 
+LINE 516: 75% 
+LINE 517: 0% 
+LINE 518: 
+LINE 519:  
+LINE 520:  
+LINE 521: 7
+LINE 522: Potential environmental impacts per reference flow 
+LINE 523:  
+LINE 524:  
+LINE 525: GWP total = Total Global Warming Potential (Climate Change); GWP – fossil = Global Warming Potential (Climate Change) fossil, GWP-biogenic= Global Warming Potential (Climate change) biogenic GWP-luluc = Global Warming Potential 
+LINE 526: (Climate Change) land use and land use change; ODP = Ozone Depletion Potential; AP = Acidification Potential for Soil and Water; EP = Eutrophication Potential; EP-marine = Eutrophication Potential, marine; EP-marine = Eutrophication Potential, 
+LINE 527: terrestrial; POCP = Photochemical Ozone Creation; ADP-minerals&metals = Abiotic Depletion Potential – minerals and metals; ADP fossil = Abiotic Depletion Potential – Fossil Fuels; WDP = water use (Water (user) deprivation potential, deprivation-
+LINE 528: weighted water consumption 
+LINE 529: A1 Raw material
+LINE 530: A2 Transport
+LINE 531: A3 
+LINE 532: Manufacturing
+LINE 533: A4 Transport
+LINE 534: A5 Installation
+LINE 535: B1 Use
+LINE 536: B2 Maintenance
+LINE 537: B3 Repair
+LINE 538: B4 Replacement
+LINE 539: B5 Refurbishment
+LINE 540: B6 Operational 
+LINE 541: energy use
+LINE 542: B7 Operational 
+LINE 543: water use
+LINE 544: C1 
+LINE 545: Deconstruction / 
+LINE 546: demolition
+LINE 547: C2 Transport
+LINE 548: C3 Waste 
+LINE 549: processing
+LINE 550: C4 Disposal
